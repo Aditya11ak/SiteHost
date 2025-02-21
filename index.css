@@ -1,0 +1,1010 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(20, 20, 20);
+
+
+}
+
+body {
+    color: #ededed;
+    background-color: rgb(20, 20, 20);
+}
+
+.navigationBar,
+header,
+h2,
+nav,
+a {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+
+}
+
+.header a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigationBar {
+    margin-bottom: 50px;
+}
+
+.header h2 {
+    background: linear-gradient(to right, #4766ff, #6b64ff, #b54bfd, #ff0099, #ff0000);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
+.navigationBar .header .menueS {
+    right: 50px;
+    position: absolute;
+}
+
+.navigationBar .header .buttonMenu {
+    visibility: hidden;
+}
+
+.navigationBar .header .menueS #closeSign {
+    visibility: hidden;
+}
+
+/* First Section of the website home */
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10% 0;
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+
+
+}
+
+
+.home-content {
+    max-width: 600px;
+    flex: 1;
+}
+
+
+
+.HomeImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.HomeImage {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(0, 255, 55);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(0, 255, 55);
+    text-decoration: none;
+    margin: 30px 50px 30px 0;
+
+}
+
+
+.home-sci a:hover,
+.home-sci a:hover i {
+    background: rgb(0, 255, 55);
+    color: rgb(20, 20, 20);
+    box-shadow: 0 0 20px rgb(0, 255, 55);
+
+}
+
+
+
+.home-content .text {
+    color: rgb(0, 255, 55);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 30%;
+    }
+
+    100% {
+        background-position: 0% 75%;
+    }
+}
+
+/* Second section of the website about */
+
+.about .Aboutouter {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.about-image {
+    height: 100px;
+    width: 150%;
+}
+
+.about-info {
+    padding-right: 100px;
+}
+
+/* Third Section of the website skills*/
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TechAndProfessional {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.TechAndProfessional .container1 {
+    width: 600px;
+    height: 500px;
+    padding: 20px 0px;
+    margin-left: 80px;
+
+}
+
+.TechAndProfessional .container2 {
+    height: 500px;
+    width: 600px;
+    padding: 20px 0px;
+    margin-left: 80px;
+    margin-right: 50px;
+
+
+}
+
+.TechAndProfessional .heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+
+.TechAndProfessional .heading2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.skillHeading span {
+    color: rgb(0, 255, 55);
+    background-color: rgb(20, 20, 20);
+
+}
+
+.MySkills {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.MySkills .skillHeading {
+    top: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.MySkills {
+    padding-bottom: 120px;
+
+}
+
+
+/* Fourth Section of website projects*/
+.MyProjects {
+    padding: 100px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MyProjects h1 {
+    display: block;
+    padding: 0 0 50px 0;
+    flex-wrap: wrap;
+}
+
+
+.MyProjects .ProjectCards {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+.ProjectCards .Pro1 {
+    margin: 10px 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    flex-wrap: wrap;
+}
+
+.Pro1 .card {
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 255, 55);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .3s;
+    flex-wrap: wrap;
+}
+
+.Pro1 .card:hover {
+    box-shadow: 0 0 20px rgb(0, 255, 55);
+    transform: scale(1.05);
+
+}
+
+.ProjectCards .Pro2 {
+    margin: 10px 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.Pro2 .card {
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 255, 55);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .3s;
+    flex-wrap: wrap;
+}
+
+.Pro2 .card:hover {
+    box-shadow: 0 0 20px rgb(0, 255, 55);
+    transform: scale(1.05);
+
+}
+
+.ProjectCards .Pro3 {
+    margin: 10px 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.Pro3 .card {
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 255, 55);
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all .3s;
+    flex-wrap: wrap;
+}
+
+.Pro3 .card:hover {
+    box-shadow: 0 0 20px rgb(0, 255, 55);
+    transform: scale(1.05);
+}
+
+/* Fifth Section of Website contact*/
+
+
+.contact {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    gap: 20px;
+}
+
+.contact .contactMe {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 50%;
+
+}
+
+.contactMe h2 {
+    margin-bottom: 50px;
+}
+
+.contactDetails h5 {
+    font-weight: 600;
+}
+
+.contactDetails h5,
+.contactDetails p {
+    margin: 0 0 0 50px;
+}
+
+.contactDetails p {
+    line-height: 2;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.contactDetails span {
+    margin-left: 50px;
+}
+
+.contactDetails i {
+    padding: 10px;
+}
+
+.contact .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 45%;
+
+}
+
+
+
+
+.form .forminput {
+    padding: 7px;
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    outline: none;
+    border: none;
+    border: 2px solid rgb(20, 20, 20);
+    color: white;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: white;
+
+}
+
+.form .bton {
+    background-color: rgb(0, 255, 55);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 255, 55);
+    margin-top: 40px;
+
+}
+
+.form .bton:hover {
+    box-shadow: 0 0 30px rgb(0, 255, 55);
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: rgb(20, 20, 20);
+
+}
+
+
+
+
+
+
+/* ************************** */
+
+
+/* This website is  mobile phone compatible now.. */
+
+/* For small Laptop screen*/
+@media only screen and (max-width:1430px) {
+    body {
+        background-color: rgb(20, 20, 20);
+    }
+
+    /* progress line editing done */
+    /* Section  3 */
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 200px;
+    }
+
+
+
+    .TechAndProfessional {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .skillHeading {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .container1 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .info {
+        width: 200%;
+    }
+
+    .progress {
+        width: 180%;
+        height: 20px;
+    }
+
+
+
+    .container2 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container2 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    /* progress line editing done */
+
+
+
+    .TechAndProfessional .container1 {
+        width: 100%;
+    }
+
+    .TechAndProfessional .container2 {
+        width: 100%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-bottom: 2px;
+    }
+
+    .info {
+        width: 50%;
+    }
+
+    .TechAndProfessional .container1,
+    .TechAndProfessional .container2 {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    .heading1 {
+        display: flex;
+        align-items: flex-start;
+
+        margin-top: 50px;
+    }
+
+    .heading2 {
+        display: flex;
+        align-items: flex-start;
+
+        margin-top: 50px;
+        margin-bottom: none;
+        padding-bottom: none;
+
+    }
+
+    /* Section 4 */
+
+    .ProjectCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body h5 {
+        font-size: 17px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .card {
+        margin: 20px 50px 20px 50px;
+    }
+
+
+    /* Section 5 */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: 500px;
+        width: 100%;
+        gap: 0;
+
+    }
+
+    .contact .contactMe {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 100%;
+
+    }
+
+
+    .contactMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .contactMe,
+    .contact .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactMe p {
+        margin: 0 30px 0 30px;
+    }
+
+    .contactDetails h5 {
+        margin-left: 30px;
+    }
+
+    .contactDetails span {
+        margin-left: 30px;
+    }
+
+
+    .form input,
+    .form textarea,
+    .form button {
+        display: none;
+    }
+
+    .contact .form {
+        display: none;
+        width: 0%;
+    }
+}
+
+@media only screen and (max-width:1040px) {
+    .home .HomeImage {
+        display: none;
+
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .MySkills {
+        margin: 0px;
+    }
+
+    .about .Aboutouter .about-image {
+        display: none;
+
+    }
+
+    .about .Aboutouter .about-info {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 7% 0 7%;
+    }
+}
+
+/* Vadiya */
+@media only screen and (max-width:840px) {
+    .home .HomeImage {
+        display: none;
+    }
+
+
+    .navigationBar .header .menueS {
+        visibility: hidden;
+
+    }
+
+    .navigationBar .header .buttonMenu {
+        visibility: visible;
+        margin-right: 20px;
+    }
+
+    .MySkills {
+        margin-top: 0px;
+    }
+
+    .contact {
+        margin-top: 1%;
+        padding-top: 10px;
+    }
+
+
+}
+
+/* For Large screen mobile phones */
+@media only screen and (max-width: 984px) {
+
+    body {
+        background-color: rgb(20, 20, 20);
+    }
+
+
+    /* progress line editing done */
+    /* Section  3 */
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TechAndProfessional {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .skillHeading {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .container1 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .info {
+        width: 200%;
+    }
+
+    .progress {
+        width: 180%;
+        height: 20px;
+    }
+
+
+
+    .container2 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container2 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    /* progress line editing done */
+
+
+
+    .TechAndProfessional .container1 {
+        width: 100%;
+    }
+
+    .TechAndProfessional .container2 {
+        width: 100%;
+    }
+
+    .bar {
+        width: 100%;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-bottom: 2px;
+    }
+
+    .info {
+        width: 50%;
+    }
+
+    .TechAndProfessional .container1,
+    .TechAndProfessional .container2 {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    .heading1 {
+        display: flex;
+        align-items: flex-start;
+
+        margin-top: 50px;
+    }
+
+    .heading2 {
+        display: flex;
+        align-items: flex-start;
+
+        margin-top: 50px;
+        margin-bottom: none;
+        padding-bottom: none;
+
+    }
+
+    /* Section 4 */
+
+    .ProjectCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body h5 {
+        font-size: 17px;
+    }
+
+    .card-body p {
+        font-size: 14px;
+    }
+
+    .card {
+        margin: 20px 50px 20px 50px;
+    }
+
+
+    /* Section 5 */
+    .contact {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: 1000px;
+        width: 100%;
+        gap: 0;
+
+    }
+
+    .contact .contactMe {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 100%;
+
+    }
+
+
+    .contactMe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .contactMe,
+    .contact .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactMe p {
+        margin: 0 30px 0 30px;
+    }
+
+    .contactDetails h5 {
+        margin-left: 30px;
+    }
+
+    .contactDetails span {
+        margin-left: 30px;
+    }
+
+
+    .form input,
+    .form textarea,
+    .form button {
+        display: none;
+    }
+
+    .contact .form {
+        display: none;
+        width: 0%;
+    }
+}
+
+
+/* For medium mobile screen size */
+@media only screen and (max-width: 376px) {
+
+    .card {
+        margin: 0px;
+    }
+
+    .card button {
+        width: 100%;
+    }
+
+    .TechAndProfessional {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .skillHeading {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .container1 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .info {
+        width: 70%;
+    }
+
+    .container1 span,
+    .container2 span {
+        width: 70%;
+    }
+
+    .progress {
+        width: 120%;
+        height: 20px;
+    }
+
+
+
+    .container2 h1 {
+        width: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container2 .bar {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+}

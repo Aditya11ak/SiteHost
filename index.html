@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Home logo in the tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.pinimg.com/originals/e2/5c/43/e25c43c6a65bdca84c72f0c58524fcd6.png"
+    />
+    <!-- font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boot strap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Github mattboldt typed.js CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <title>Portfolio Website</title>
+  </head>
+
+  <body>
+    <nav class="navigationBar">
+      <header class="header" id="header">
+        <h2>Portfolio.</h2>
+        <nav class="menueS">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <a href="#" class="buttonMenu" onclick="menu()"
+          ><i class="fa-solid fa-bars fa-xl"></i
+        ></a>
+      </header>
+      <p id="internalPage"></p>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="imagesc"></div>
+        <h3>Hello It's me</h3>
+        <h1>Aditya Chakre</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          Web Designer ,Frontend Designer ,Backend Designer ,Project Maker , and
+          many more...
+        </p>
+        <div class="home-sci">
+          <a
+            href="https://m.facebook.com/profile.php/?id=100051954523512&name=xhp_nt__fb__action__open_user"
+            target="_blank"
+            style="--i: 6"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aditya-chakre-ba882b23b/"
+            target="_blank"
+            style="--i: 7"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/aditya_11ak/?theme=dark"
+            target="_blank"
+            style="--i: 8"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://financial-knowledge-4u.blogspot.com/"
+            target="_blank"
+            style="--i: 9"
+            ><i class="fa-brands fa-blogger-b"></i
+          ></a>
+        </div>
+      </div>
+      <div class="HomeImage">
+        <!-- SVG and image combination -->
+        <svg
+          id="sw-js-blob-svg"
+          viewBox="0 0 100 100"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <!-- Clip Path using the blob shape -->
+            <clipPath id="blobClip">
+              <path
+                d="M17.8,-21.9C24.1,-16,30.9,-11.3,33.4,-4.7C35.9,1.8,34.2,10.3,29.5,15.5C24.7,20.7,16.8,22.6,9.3,25.2C1.8,27.7,-5.3,30.9,-12.4,30.1C-19.4,29.2,-26.5,24.3,-32.2,17.2C-38,10.1,-42.4,0.9,-41.7,-8C-40.9,-17,-35,-25.8,-27.1,-31.5C-19.3,-37.1,-9.7,-39.8,-1.9,-37.5C5.8,-35.2,11.6,-27.9,17.8,-21.9Z"
+                transform="translate(50 50)"
+              />
+            </clipPath>
+          </defs>
+
+          <!-- Blob Shape (for reference) -->
+          <path
+            fill="orange"
+            d="M17.8,-21.9C24.1,-16,30.9,-11.3,33.4,-4.7C35.9,1.8,34.2,10.3,29.5,15.5C24.7,20.7,16.8,22.6,9.3,25.2C1.8,27.7,-5.3,30.9,-12.4,30.1C-19.4,29.2,-26.5,24.3,-32.2,17.2C-38,10.1,-42.4,0.9,-41.7,-8C-40.9,-17,-35,-25.8,-27.1,-31.5C-19.3,-37.1,-9.7,-39.8,-1.9,-37.5C5.8,-35.2,11.6,-27.9,17.8,-21.9Z"
+            transform="translate(50 50)"
+            stroke-width="0"
+            style="transition: 0.3s"
+          ></path>
+
+          <!-- Image inside the blob shape -->
+          <image
+            href="./features/pro1.png"
+            width="100"
+            height="100"
+            preserveAspectRatio="xMidYMid slice"
+            clip-path="url(#blobClip)"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="Aboutouter">
+        <div class="about-image">
+          <svg
+            id="sw-js-blob-svg"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <!-- Clip Path using the blob shape -->
+              <clipPath id="blobClip">
+                <path
+                  d="M17.8,-21.9C24.1,-16,30.9,-11.3,33.4,-4.7C35.9,1.8,34.2,10.3,29.5,15.5C24.7,20.7,16.8,22.6,9.3,25.2C1.8,27.7,-5.3,30.9,-12.4,30.1C-19.4,29.2,-26.5,24.3,-32.2,17.2C-38,10.1,-42.4,0.9,-41.7,-8C-40.9,-17,-35,-25.8,-27.1,-31.5C-19.3,-37.1,-9.7,-39.8,-1.9,-37.5C5.8,-35.2,11.6,-27.9,17.8,-21.9Z"
+                  transform="translate(50 50)"
+                />
+              </clipPath>
+            </defs>
+
+            <!-- Blob Shape (for reference) -->
+            <path
+              fill="orange"
+              d="M17.8,-21.9C24.1,-16,30.9,-11.3,33.4,-4.7C35.9,1.8,34.2,10.3,29.5,15.5C24.7,20.7,16.8,22.6,9.3,25.2C1.8,27.7,-5.3,30.9,-12.4,30.1C-19.4,29.2,-26.5,24.3,-32.2,17.2C-38,10.1,-42.4,0.9,-41.7,-8C-40.9,-17,-35,-25.8,-27.1,-31.5C-19.3,-37.1,-9.7,-39.8,-1.9,-37.5C5.8,-35.2,11.6,-27.9,17.8,-21.9Z"
+              transform="translate(50 50)"
+              stroke-width="0"
+              style="transition: 0.3s"
+            ></path>
+
+            <!-- Image inside the blob shape -->
+            <image
+              href="./features/pro1.png"
+              width="100"
+              height="100"
+              preserveAspectRatio="xMidYMid slice"
+              clip-path="url(#blobClip)"
+            />
+          </svg>
+        </div>
+
+        <div class="about-info">
+          <h1>About <span style="color: rgb(0, 255, 55)">Me</span></h1>
+          <h3 style="margin: 20px 0">Full Stack WebDeveloper!</h3>
+          <p>
+            I'm an Electronics and Telecommunication Engineer studying at Pimpri
+            Chinchwad College Of Engineering, Pune (PCCOE), with a Diploma from
+            A. G. Patil College of Engineering, Solapur. I'm good at both
+            hardware and software development. I've done various web projects
+            like making Portfolio website,web clones to understand the working
+            and login pages.
+          </p>
+          <p>
+            In Electronics, I've made things like a Digital Locker with 3-step
+            Security and a Visitor Counter using Arduino Uno. I'm skilled in
+            C++, Frontend, and Backend Web Development. I'm interested in
+            learning about Artificial Neural Networks and Machine Learning. I've
+            also worked at Shams Energy company during my diploma, where I
+            learned about solar panels. Outside of work, I enjoy trading,
+            reading finance books, and going on bike trips to explore new
+            things.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="MySkills" id="skill">
+      <h1 class="skillHeading">My<span>Skills</span></h1>
+
+      <div class="TechAndProfessional">
+        <div class="container1" id="skills">
+          <h1 class="heading1">Technical Skills</h1>
+
+          <div class="bar">
+            <i style="color: #c95d2e" class="fa-brands fa-html5"></i>
+            <div class="info">
+              <span>HTML</span>
+              <div class="progress-line html">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 67%"
+                    >
+                      67%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <i style="color: #147bbc" class="fa-brands fa-css3-alt"></i>
+            <div class="info">
+              <span>CSS</span>
+              <div class="progress-line css">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                      style="width: 57%"
+                    >
+                      57%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <i style="color: #b0bc1e" class="fa-brands fa-js"></i>
+            <div class="info">
+              <span>JavaScript</span>
+              <div class="progress-line js">
+                <span
+                  ><div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 34%"
+                    >
+                      34%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <i style="color: #69bcbc" class="fa-brands fa-react"></i>
+            <div class="info">
+              <span>React</span>
+              <div class="progress-line js">
+                <span
+                  ><div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-secondary"
+                      style="width: 20%"
+                    >
+                      20%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+        <br /><br />
+
+        <div class="container2">
+          <h1 class="heading2">Professional Skills</h1>
+
+          <div class="bar">
+            <br />
+            <div class="info">
+              <span>Creativity</span>
+              <div class="progress-line css">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                      style="width: 85%"
+                    >
+                      85%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <br />
+            <div class="info">
+              <span>Communication</span>
+              <div class="progress-line css">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                      style="width: 75%"
+                    >
+                      75%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <br />
+            <div class="info">
+              <span>Problem Solving</span>
+              <div class="progress-line css">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                      style="width: 67%"
+                    >
+                      67%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div class="bar">
+            <div class="info">
+              <br />
+              <span>Team Work</span>
+              <div class="progress-line css">
+                <span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Animated striped example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      style="width: 80%"
+                    >
+                      80%
+                    </div>
+                  </div></span
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </section>
+
+    <section class="MyProjects" id="projects">
+      <h1>My <span style="color: rgb(0, 255, 55)">Projects</span></h1>
+
+      <div class="ProjectCards">
+        <div class="Pro1">
+          <div class="card" style="width: 22rem">
+            <img
+              src="./features/Screenshot (98).png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: rgb(0, 255, 55)">
+                Login Page
+              </h5>
+              <p class="card-text" style="color: white">
+                This is my first simple project with which I started my journey
+                of web development. It looks simple now, but when I made a
+                project by my self for first time, it took me so much time. Also
+                Learned new things as well..&#128522;
+              </p>
+            </div>
+            <a
+              href="https://aditya11ak.github.io/LoginPage/"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              See Website</a
+            >
+          </div>
+        </div>
+        <div class="Pro2">
+          <div class="card" style="width: 22rem; height: 469px">
+            <img
+              src="./features/Screenshot (102).png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: rgb(0, 255, 55)">
+                Zomato Clone
+              </h5>
+              <p class="card-text" style="color: white">
+                This is my second project with which I learned to implement my
+                knowledge of web development. It is not responsive
+                website&#128517;, but helped me a lot to learn the
+                implementation of my knowledge on this using only HTML and CSS..
+              </p>
+            </div>
+            <a
+              href="https://aditya11ak.github.io/ZomatoClone/"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              See Website</a
+            >
+          </div>
+        </div>
+        <div class="Pro3">
+          <div class="card" style="width: 22rem">
+            <img
+              src="./features/Screenshot (99).png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title" style="color: rgb(0, 255, 55)">
+                TaskManagement Web
+              </h5>
+              <p class="card-text" style="color: white">
+                This is my third project which is responsive website which is
+                made with HTML,CSS and JavaScript and this project helped me to
+                learn many of the JavaScript basic fundamentals this is one of
+                the best project, Also helped to manage tasks..&#128077;
+              </p>
+            </div>
+            <a
+              href=" https://aditya11ak.github.io/TaskManagement/"
+              class="btn btn-primary"
+              target="_blank"
+            >
+              See Website</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contactMe">
+        <h2>Contact <span style="color: rgb(0, 255, 55)">Me</span></h2>
+        <div class="contactDetails">
+          <h5>Let's Work Together</h5>
+          <br />
+          <p>
+            I like to work on different projects and learned new things, If you
+            Like my work and want to work with me on some projects. Then please
+            contact me so that I can work with some of the brilliant minds out
+            there. Thank you for visiting my Portfolio website... &#128591;
+          </p>
+          <span
+            ><i class="fa-solid fa-envelope" style="color: #74c0fc"></i
+            >adityachakre123@gmail.com</span
+          >
+          <br />
+          <span
+            ><i class="fa-solid fa-phone" style="color: #74c0fc"></i
+            >8421860038</span
+          >
+        </div>
+      </div>
+
+      <form class="form">
+        <input
+          class="forminput"
+          required
+          type="text"
+          placeholder="Enter your Name"
+        />
+        <input
+          class="forminput"
+          required
+          type="email"
+          placeholder="Enter your Email"
+        />
+        <input
+          class="forminput"
+          required
+          type="text"
+          placeholder="Enter your Subject"
+        />
+        <textarea
+          class="forminput"
+          placeholder="Enter your Message"
+          name="MessageInput"
+          id="Message"
+          cols="30"
+          rows="7"
+        ></textarea>
+        <button class="forminput bton" onclick="notification()">Submit</button>
+      </form>
+    </section>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <div class="end">Created By Aditya Chakre © 2025</div>
+  </body>
+</html>

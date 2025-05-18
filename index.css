@@ -371,6 +371,7 @@ section {
 /* Fifth Section of Website contact*/
 
 
+
 .contact {
     display: flex;
     height: 600px;
@@ -415,6 +416,18 @@ section {
 .contactDetails i {
     padding: 10px;
 }
+
+.contact .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 45%;
+
+}
+
+
 
 
 .end {
@@ -887,11 +900,7 @@ section {
         display: none;
     }
 
-    .contact .form {
-        display: none;
-        width: 0%;
-    }
-}
+    
 
 
 /* For medium mobile screen size */

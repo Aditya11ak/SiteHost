@@ -458,14 +458,18 @@ section {
 
     /* progress line editing done */
     /* Section  3 */
-    .about {
+     .about {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        margin-top: 200px;
+        margin-top: 450px;
+        margin-bottom: 20px;
     }
 
-
+     .Aboutouter {
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
 
     .TechAndProfessional {
         display: flex;

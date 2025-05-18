@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(20, 20, 20);
-
-
 }
 
 body {
@@ -39,6 +37,7 @@ a {
     margin-bottom: 50px;
 }
 
+/*main header portfolio name styling .. */
 .header h2 {
     background: linear-gradient(to right, #4766ff, #6b64ff, #b54bfd, #ff0099, #ff0000);
     background-size: 200%;
@@ -77,8 +76,6 @@ a {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-
-
 }
 
 
@@ -178,7 +175,7 @@ a {
 
 .about-image {
     height: 100px;
-    width: 150%;
+    width: 100%;
 }
 
 .about-info {
@@ -188,15 +185,16 @@ a {
 /* Third Section of the website skills*/
 
 
-section {
+.MySkills {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 .TechAndProfessional {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 100px;
 }
 
 .TechAndProfessional .container1 {
@@ -371,7 +369,6 @@ section {
 /* Fifth Section of Website contact*/
 
 
-
 .contact {
     display: flex;
     height: 600px;
@@ -417,19 +414,6 @@ section {
     padding: 10px;
 }
 
-.contact .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    width: 45%;
-
-}
-
-
-
-
 .end {
     display: flex;
     align-items: center;
@@ -458,18 +442,14 @@ section {
 
     /* progress line editing done */
     /* Section  3 */
-     .about {
+    .about {
         display: flex;
         flex-direction: column;
         margin-left: 50px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: 200px;
     }
 
-     .Aboutouter {
-        margin-bottom: 50px;
-        padding-bottom: 50px;
-    }
+
 
     .TechAndProfessional {
         display: flex;
@@ -681,15 +661,8 @@ section {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 220px 7% 0 7%;
+        margin: 10px 7% 0 7%;
     }
-
-    .about .Aboutouter {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 50px;
-    margin-bottom: 100px;
-}
 }
 
 /* Vadiya */
@@ -911,7 +884,11 @@ section {
         display: none;
     }
 
-    
+    .contact .form {
+        display: none;
+        width: 0%;
+    }
+}
 
 
 /* For medium mobile screen size */

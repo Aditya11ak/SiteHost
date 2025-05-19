@@ -194,7 +194,7 @@ a {
 .TechAndProfessional {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
 }
 
 .TechAndProfessional .container1 {
